@@ -23,6 +23,9 @@ np_hour = NeoPixel(Pin(pin_hour, Pin.OUT), leds)
 np_min = NeoPixel(Pin(pin_min, Pin.OUT), leds)
 np_sec = NeoPixel(Pin(pin_sec, Pin.OUT), leds)
 
+print(rtc.ReadTime("everything_sorted"))
+print(rtc.ReadTime("everything_number"))
+
 while True:
     np_hour.write()
     np_min.write()
@@ -33,12 +36,12 @@ while True:
     hour_bit=bin(rtc_hour)
     print("hourbit", hour_bit)
     
-    rtc_min = int(rtc.ReadTime('min'))
+    rtc_min = int(rtc.ReadTime('minute'))
     print("min", rtc_min)
     min_bit=bin(rtc_min)
     print("minbit", min_bit)
     
-    rtc_sec = int(rtc.ReadTime("sec"))
+    rtc_sec = int(rtc.ReadTime("second"))
     print("sec", rtc_sec)
     sec_bit=bin(rtc_sec)
     print("secbit", sec_bit)
