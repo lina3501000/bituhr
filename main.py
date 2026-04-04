@@ -1,5 +1,6 @@
 # komischer grauer kasten, heist das es ein syntax fehler gibt
 
+
 # Bibliotheken laden
 from machine import Pin
 from neopixel import NeoPixel
