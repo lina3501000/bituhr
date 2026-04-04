@@ -7,12 +7,17 @@ from neopixel import NeoPixel
 import ds3231
 from time import sleep
 
+# pin an/aus schalter
+schalter=Pin(0, Pin.IN, Pin.PULL_DOWN)
+modus=Pin(1, Pin.IN, Pin.PULL_DOWN)
+# pin button
+button=Pin(2, Pin.IN, Pin.PULL_DOWN)
 # Pin DS3231
 rtc = ds3231.RTC(sda_pin=16, scl_pin=17, port=0)
 # GPIO-Pin für WS2812
-pin_hour = 20
-pin_min=19
 pin_sec=18
+pin_min=19
+pin_hour = 20
 # Pin potentiometer
 adc0 = ADC(26)
 
@@ -28,7 +33,6 @@ np_sec = NeoPixel(Pin(pin_sec, Pin.OUT), leds)
 
 print(rtc.ReadTime("everything_sorted"))
 print(rtc.ReadTime("everything_number"))
-# 0 bis 65600
 
 while True:
     rtc_hour =int(rtc.ReadTime("hour"))
@@ -45,11 +49,14 @@ while True:
     print("sec", rtc_sec)
     sec_bit=bin(rtc_sec)
     print("secbit", sec_bit)
-    
-    value = adc0.read_u16()
-    print(value)
-    brightness = min(max(value//256, 0), 255)
-    print(brightness)
+  
+    if schalter.value()==1:
+        brightness = 0
+    else:
+        value = adc0.read_u16()
+        print("value:", value)
+        brightness = min(max(value//256, 0), 255)
+        print("brigntness:", brightness)
     
     for i in range(6):
         if rtc_hour & 0b1 << i:
@@ -72,4 +79,4 @@ while True:
     np_hour.write()
     np_min.write()
     np_sec.write()
-    sleep(0.1)
+    sleep(0.05)
