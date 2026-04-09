@@ -63,12 +63,12 @@ while True:
     if schaltervalue==1:
         brightness = 0
     elif modusvalue==1:
-        sleep(0.1)
         buttonvalue=button.value()
         print("button", buttonvalue)
         print("farbmodus:", farbmodus)
         if buttonvalue==1:
             farbmodus+=1
+            sleep(0.3)
         
         if farbmodus==4:
             farbmodus=1
