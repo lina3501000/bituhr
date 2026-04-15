@@ -1,1 +1,10 @@
 .DS_Store
+
+.venv/
+venv/
+env/
+
+.env
+.env.*
+*.key
+*.pem
