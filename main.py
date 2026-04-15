@@ -1,6 +1,3 @@
-# komischer grauer kasten, heist das es ein syntax fehler gibt
-
-
 # Bibliotheken laden
 from machine import Pin, ADC, PWM
 from neopixel import NeoPixel
@@ -32,6 +29,8 @@ brightness_b = 10
 
 farbmodus=1
 
+aus=0
+
 # Initialisierung WS2812/NeoPixel
 np_hour = NeoPixel(Pin(pin_hour, Pin.OUT), leds)
 np_min = NeoPixel(Pin(pin_min, Pin.OUT), leds)
@@ -51,7 +50,7 @@ while True:
     sec_bit=bin(rtc_sec)
     
     schaltervalue = schalter.value()
-    #print("schalter:", schaltervalue)
+    print("schalter:", schaltervalue)
     
     modusvalue=modus.value()
     print("modus:", modusvalue)
@@ -61,7 +60,9 @@ while True:
     value = adc0.read_u16()
     
     if schaltervalue==1:
-        brightness = 0
+        brightness_r, brightness_g, brightness_b = 0,0,0
+        sleep(1)
+    
     elif modusvalue==1:
         buttonvalue=button.value()
         print("button", buttonvalue)
@@ -81,10 +82,14 @@ while True:
             brightness_b=min(max(value//256, 0), 255)
     
     else:
-        brightness_r = min(max(value//256, 0), 255)
-        brightness_g = min(max(value//256, 0), 255)
-        brightness_b = min(max(value//256, 0), 255)
+        brightness_r = brightness_g = brightness_b = min(max(value//256, 0), 255)
     
+    if hour_bit==min_bit:
+        if aus==True:
+            brightness_r, brightness_g, brightness_b = 0,0,0
+            aus+=1
+            if aus==2:
+                aus=0
     
     for i in range(6):
         if rtc_hour & 0b1 << i:
