@@ -2,15 +2,13 @@
 import ds3231
 
 # Initialisierung
-rtc = ds3231.RTC(sda_pin=20, scl_pin=21)
+rtc = ds3231.RTC(sda_pin=16, scl_pin=17, port=0)
 
-# Zeit lesen und ausgeben
-rtc_time = rtc.ReadTime('DIN-1355-1+time')
-print('Alt:', rtc_time)
+print(rtc.ReadTime("everything_sorted"))
+print(rtc.ReadTime("everything_number"))
 
 # Zeit setzen: Sekunde / Minute / Stunde / Wochentag / Tag / Monat / Jahr
-rtc.SetTime(b'\x00\x47\x15\x06\x04\x04\x26')
+rtc.SetTime(b'\x55\x59\x02\x07\x30\x10\x26')
 
-# Zeit lesen und ausgeben
-rtc_time = rtc.ReadTime('DIN-1355-1+time')
-print('Neu:', rtc_time)
+print(rtc.ReadTime("everything_sorted"))
+print(rtc.ReadTime("everything_number"))
