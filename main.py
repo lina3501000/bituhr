@@ -100,7 +100,8 @@ while True:
     print(brightness_r, brightness_g, brightness_b)
    
     value = adc0.read_u16()
-    
+    hour=rtc.ReadTime("hour")
+    print("hour:", hour)
     if schaltervalue==1:
         brightness_r, brightness_g, brightness_b = 0,0,0
         sleep(1)
@@ -117,15 +118,21 @@ while True:
             farbmodus=1
             
         if farbmodus == 1:
-            brightness_r=min(max(value//256, 0), 255)
+            brightness_r=min(max(value//280, 0), 255)
         elif farbmodus ==2:
-            brightness_g=min(max(value//256, 0), 255)
+            brightness_g=min(max(value//280, 0), 255)
         elif farbmodus==3:
-            brightness_b=min(max(value//256, 0), 255)
-    
+            brightness_b=min(max(value//280, 0), 255)
+    elif 20<=hour<22:
+            brightness_r=50
+            brightness_g=0
+            brightness_b=0
+    elif hour>=22 or hour < 8:
+            brightness_r=10
+            brightness_g=0
+            brightness_b=0
     else:
-        brightness_r = brightness_g = brightness_b = min(max(value//256, 0), 255)
-    
+        brightness_r = brightness_g = brightness_b = min(max(value//280, 0), 255)
     if hour_bit==min_bit:
         print("blink")
         now=time.ticks_ms()
