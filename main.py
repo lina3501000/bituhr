@@ -37,6 +37,19 @@ np_hour = NeoPixel(Pin(pin_hour, Pin.OUT), leds)
 np_min = NeoPixel(Pin(pin_min, Pin.OUT), leds)
 np_sec = NeoPixel(Pin(pin_sec, Pin.OUT), leds)
 
+def zeitumstellung(change_to):
+    neue_zeit=rtc.ReadTime("alles_buffer")
+    neue_zeit=list(neue_zeit)
+    if change_to=="sommer":  
+        neue_zeit[2]=neue_zeit[2]+1
+    elif change_to == "normal":
+        neue_zeit[2]=neue_zeit[2]-1
+    neue_zeit=tuple(neue_zeit)
+    neue_zeit=(bytes(neue_zeit))
+    rtc.SetTime(neue_zeit)
+    print(rtc.ReadTime("everything_sorted"))
+    sleep(60)
+
 print(rtc.ReadTime("everything_sorted"))
 print(rtc.ReadTime("everything_number"))
 
@@ -58,21 +71,9 @@ while True:
     #print(brightness_r, brightness_g, brightness_b)
     
     if everything_number[0]==0x02 and everything_number[1]==0x00 and everything_number[2]==0x00 and everything_number[3]==0x07 and everything_number[4]>=25 and everything_number[5]==0x03:
-        neue_zeit=rtc.ReadTime("alles_buffer")
-        neue_zeit=list(neue_zeit)
-        neue_zeit[2]=neue_zeit[2]+1
-        neue_zeit=tuple(neue_zeit)
-        neue_zeit=(bytes(neue_zeit))
-        rtc.SetTime(neue_zeit)
-        sleep(60)
+        zeitumstellung("sommer")
     elif everything_number[0]==0x03 and everything_number[1]==0x00 and everything_number[2]==0x00 and everything_number[3]==0x07 and everything_number[4]>=25  and everything_number[5]==10:
-        neue_zeit=rtc.ReadTime("alles_buffer")
-        neue_zeit=list(neue_zeit)
-        neue_zeit[2]=neue_zeit[2]-1
-        neue_zeit=tuple(neue_zeit)
-        neue_zeit=(bytes(neue_zeit))
-        rtc.SetTime(neue_zeit)
-        sleep(60)
+        zeitumstellung("normal")
         
     if schaltervalue==1:
         brightness_r, brightness_g, brightness_b = 0,0,0

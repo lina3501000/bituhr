@@ -8,7 +8,7 @@ print(rtc.ReadTime("everything_sorted"))
 print(rtc.ReadTime("everything_number"))
 
 # Zeit setzen: Sekunde / Minute / Stunde / Wochentag / Tag / Monat / Jahr
-rtc.SetTime(b'\x55\x59\x21\x07\x30\x06\x26')
+rtc.SetTime(b'\x55\x59\x01\x07\x30\x03\x26')
 
 print(rtc.ReadTime("everything_sorted"))
 print(rtc.ReadTime("everything_number"))
