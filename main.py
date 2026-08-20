@@ -5,16 +5,16 @@ from time import sleep
 import time
 
 # pin an/aus schalter und modus
-schalter=Pin(0, Pin.IN, Pin.PULL_DOWN)
-modus=Pin(1, Pin.IN, Pin.PULL_DOWN)
+schalter=Pin(8, Pin.IN, Pin.PULL_DOWN)
+modus=Pin(9, Pin.IN, Pin.PULL_DOWN)
 # pin button
-button=Pin(2, Pin.IN, Pin.PULL_DOWN)
+button=Pin(10, Pin.IN, Pin.PULL_DOWN)
 # Pin DS3231
 rtc = ds3231.RTC(sda_pin=16, scl_pin=17, port=0)
 # GPIO-Pin neopixel
-pin_sec=18
+pin_sec=14
 pin_min=19
-pin_hour = 20
+pin_hour = 18
 # Pin potentiometer
 adc0 = ADC(26)
 
@@ -55,8 +55,7 @@ print(rtc.ReadTime("everything_number"))
 
 while True:
     everything_number=rtc.ReadTime("everything_number")
-    
-    rtc_hour =int(rtc.ReadTime("hour"))
+    rtc_hour=int(rtc.ReadTime("hour"))
     hour_bit=bin(rtc_hour)
     hour=rtc.ReadTime("hour")
     rtc_min = int(rtc.ReadTime('minute'))
@@ -135,4 +134,5 @@ while True:
     np_hour.write()
     np_min.write()
     np_sec.write()
-    sleep(0.05)
+    print(rtc.ReadTime("everything_sorted"))
+    sleep(0.07)

@@ -8,7 +8,3 @@ env/
 .env.*
 *.key
 *.pem
-
-# eingenes init programm änderung irnorieren
-ds3231_init.py
-bit_uhr_pcb
