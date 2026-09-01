@@ -3344,7 +3344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44bf0084-1851-4e27-8e18-cf1a6cce2695")
-		(property "Reference" "Potentiometer"
+		(property "Reference" "Potentiometer1"
 			(at 218.44 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3410,7 +3410,7 @@
 		(instances
 			(project "pcb_bituhr"
 				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
-					(reference "Potentiometer")
+					(reference "Potentiometer1")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4589,7 @@
 				)
 			)
 		)
-		(property "Value" "SCL"
+		(property "Value" "Conn_01x04_Pin"
 			(at 67.945 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4600,7 +4600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 67.31 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbf5e9dd-57a6-4a8c-bbe8-8bb87496c7df")
-		(property "Reference" "Button"
+		(property "Reference" "Button1"
 			(at 73.152 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4731,7 @@
 		(instances
 			(project "pcb_bituhr"
 				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
-					(reference "Button")
+					(reference "Button1")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5063,7 @@
 		(dnp no)
 		(uuid "e975fba6-8175-41bc-abf0-0989cceff027")
 		(property "Reference" "Kippschalter2"
-			(at 72.39 102.108 0)
+			(at 72.898 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5143,7 +5143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a5292a-aafc-4539-9c0e-f1bf806b4d3d")
-		(property "Reference" "PowerIN"
+		(property "Reference" "PowerIN1"
 			(at 74.93 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +5206,7 @@
 		(instances
 			(project "pcb_bituhr"
 				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
-					(reference "PowerIN")
+					(reference "PowerIN1")
 					(unit 1)
 				)
 			)
