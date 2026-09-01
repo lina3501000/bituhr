@@ -8,3 +8,13 @@ env/
 .env.*
 *.key
 *.pem
+
+*.lck
+*.bak
+~*
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*.lck
