@@ -429,7 +429,7 @@
         "uuid": "d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
       }
     ],
-    "used_designators": "Neopixel2-3,J1,#PWR1-3,A1",
+    "used_designators": "Neopixel2-3,J1,#PWR1-11,A1",
     "variants": []
   },
   "sheets": [

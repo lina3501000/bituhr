@@ -1920,16 +1920,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 95.25) (xy 215.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fcb88d-5adb-4bc2-bfc8-4c4185fcdda1")
-	)
-	(wire
-		(pts
 			(xy 210.82 78.74) (xy 215.9 78.74)
 		)
 		(stroke
@@ -1990,13 +1980,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 92.71) (xy 215.9 92.71)
+			(xy 210.82 97.79) (xy 215.9 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5105ea6f-5082-441b-a25e-3a4297dcd5f6")
+		(uuid "54b9fca3-0826-421f-a65e-612a5504d5f7")
+	)
+	(wire
+		(pts
+			(xy 210.82 113.03) (xy 215.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6997893d-0c91-4969-8033-f30968bdc394")
 	)
 	(wire
 		(pts
@@ -2010,16 +2010,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 97.79) (xy 215.9 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717c9989-e9a8-4ad4-a59b-258f0a78bac5")
-	)
-	(wire
-		(pts
 			(xy 78.74 78.74) (xy 81.28 78.74)
 		)
 		(stroke
@@ -2027,16 +2017,6 @@
 			(type default)
 		)
 		(uuid "72e97187-1c99-4411-9e2c-9eda6c25a7d8")
-	)
-	(wire
-		(pts
-			(xy 210.82 111.76) (xy 215.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ebdea5-d4b6-4d03-a01e-8bdb6e1fb76e")
 	)
 	(wire
 		(pts
@@ -2050,6 +2030,36 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 110.49) (xy 215.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa9359d-9df4-4642-8589-07570de97463")
+	)
+	(wire
+		(pts
+			(xy 210.82 95.25) (xy 215.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01e3e47-5232-4d89-b548-f07df708ce8e")
+	)
+	(wire
+		(pts
+			(xy 210.82 107.95) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc98bde4-84bc-43e9-8c1a-0441d9d98664")
+	)
+	(wire
+		(pts
 			(xy 210.82 81.28) (xy 215.9 81.28)
 		)
 		(stroke
@@ -2060,103 +2070,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 215.9 106.68)
+			(xy 210.82 92.71) (xy 215.9 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e625980b-4d22-4873-97a9-b287e459ccc2")
-	)
-	(wire
-		(pts
-			(xy 210.82 109.22) (xy 215.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe08e311-8400-44ea-9dee-abc80497dd99")
-	)
-	(label "Neo2"
-		(at 210.82 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0004e71b-d102-4c0c-8442-35beef49353f")
-	)
-	(label "3V3"
-		(at 210.82 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00b46c71-5f34-4dbb-bc19-19f51de9fd1b")
-	)
-	(label "3V3"
-		(at 81.28 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0862848a-1bc7-4d6d-b1fa-c4eda468f71e")
-	)
-	(label "GND"
-		(at 210.82 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14b3c3c6-491d-4522-b1e8-3072b0f7f0af")
-	)
-	(label "3V3"
-		(at 210.82 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35b35e7c-a52e-41f3-b21d-a0a990fafc92")
-	)
-	(label "Neo3"
-		(at 210.82 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41d507f7-7507-49bc-8d0a-5cb4e4233924")
-	)
-	(label "GND"
-		(at 210.82 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b85e48d-f8ba-4440-a1cc-68e6de382353")
-	)
-	(label "3V3"
-		(at 210.82 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cc6ce7b-176b-4022-84c7-826dcd9f6ca8")
+		(uuid "f3237876-0b0a-4b96-993b-e158dc2df4d2")
 	)
 	(label "Neo1"
 		(at 210.82 81.28 0)
@@ -2168,15 +2088,15 @@
 		)
 		(uuid "749c9e19-3fa9-434a-ae51-81dc08fb5825")
 	)
-	(label "GND"
-		(at 210.82 97.79 0)
+	(label "Neo2"
+		(at 210.82 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "865e2198-d09d-4006-8183-5a1357082c82")
+		(uuid "94f5bb4f-c1b8-4c40-814c-b82a86de48d2")
 	)
 	(label "SDA"
 		(at 81.28 78.74 0)
@@ -2188,16 +2108,6 @@
 		)
 		(uuid "9cb5bbd0-c97f-4787-8132-23735e0dbc2c")
 	)
-	(label "GND"
-		(at 81.28 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adf1d202-0681-4fd7-9c46-962c373c3047")
-	)
 	(label "SCL"
 		(at 81.28 76.2 0)
 		(effects
@@ -2207,6 +2117,95 @@
 			(justify left bottom)
 		)
 		(uuid "cec44969-d303-497e-a7ab-f4c5337e7dbb")
+	)
+	(label "Neo3"
+		(at 210.82 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc8dae86-ac82-470a-ae38-c4ab8aeee466")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 210.82 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e8ac72-5df5-4bea-8a14-76ac0d531d61")
+		(property "Reference" "#PWR08"
+			(at 214.63 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.01 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56b4a807-bd0e-4cfe-852f-7faa00dd1e7a")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2287,8 +2286,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 220.98 109.22 180)
+		(lib_id "power:+3V3")
+		(at 81.28 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2296,19 +2295,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4670a6f6-a000-4436-9462-67dd19f6d342")
-		(property "Reference" "Neopixel3"
-			(at 218.44 102.362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 220.345 114.3 0)
+		(fields_autoplaced yes)
+		(uuid "2a82f1f9-8a5a-4018-8a17-3144301be27b")
+		(property "Reference" "#PWR04"
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,8 +2308,19 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
-			(at 220.98 109.22 0)
+		(property "Value" "+3V3"
+			(at 85.09 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2331,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 109.22 0)
+			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fc3ee69-4679-4771-949e-2bd672ca793d")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 220.98 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c0b3b82-264d-44c4-bc1b-640386015a6c")
+		(property "Reference" "Neopixel3"
+			(at 218.44 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 220.345 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+			(at 220.98 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +2419,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 220.98 109.22 0)
+			(at 220.98 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,13 +2430,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "d982a52a-5077-4127-8eae-7733e6e3f1f6")
+			(uuid "0c4281be-f374-4986-809e-701be2c89a6e")
 		)
 		(pin "1"
-			(uuid "3608d6e2-7c7d-4a1b-888b-9ac21b329f95")
+			(uuid "657d3232-e55a-4546-b026-b6bff73e87fc")
 		)
 		(pin "3"
-			(uuid "faecccc8-83b5-4f65-b155-e65153e49243")
+			(uuid "f78e6315-ee6d-4d98-b2e0-eeff4df5daf3")
 		)
 		(instances
 			(project "pcb_bituhr"
@@ -2453,6 +2531,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e3e3f61-b0fc-4e44-8088-91a6eb51cfd9")
+		(property "Reference" "#PWR09"
+			(at 204.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c757d794-d730-4714-becc-943a2653f01f")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 220.98 95.25 180)
 		(unit 1)
@@ -2462,7 +2619,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4b0c222f-c95d-4b5e-970e-9c981d8ceb26")
+		(uuid "52fb74ce-6245-4cf3-979a-f3a30cec3011")
 		(property "Reference" "Neopixel2"
 			(at 218.44 88.392 0)
 			(show_name no)
@@ -2518,18 +2675,255 @@
 			)
 		)
 		(pin "2"
-			(uuid "520b012a-8252-46e9-b4c4-ad6283c8d61a")
+			(uuid "0c88d948-931c-406e-b329-a23f0017f40c")
 		)
 		(pin "1"
-			(uuid "3459300b-c93f-43bc-9245-651827948400")
+			(uuid "6ce48f30-7f14-419d-9d5b-210e2c680bfb")
 		)
 		(pin "3"
-			(uuid "c1e02659-5428-407c-8fdc-2bd7265cba53")
+			(uuid "fc6caee0-ba7c-45eb-a3f1-0a3fe6e8e048")
 		)
 		(instances
 			(project "pcb_bituhr"
 				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
 					(reference "Neopixel2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720880c9-017d-4336-8905-ef630e134fb5")
+		(property "Reference" "#PWR06"
+			(at 87.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb415a3c-2b91-4958-9465-3e483f65fb98")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7e5c30-fb04-40f0-a7b5-7ceda3550e66")
+		(property "Reference" "#PWR07"
+			(at 204.47 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70f0ca7b-d780-4e68-b46a-e0572f05ad4a")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bfbb4c9-e232-4ab0-acde-245aa19d2277")
+		(property "Reference" "#PWR011"
+			(at 204.47 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deff6a62-22b0-4d39-84c2-1ad1c3d602a8")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2820,6 +3214,85 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 210.82 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78b7de5-71e9-4067-b9f9-0665fa453880")
+		(property "Reference" "#PWR010"
+			(at 214.63 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.01 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1367b0e-da34-4fc8-b7f8-06bd407760f1")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 149.86 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -2969,6 +3442,85 @@
 			(project "pcb_bituhr"
 				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 210.82 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9cf54ae-412c-4a2e-9977-3836ecf73bc2")
+		(property "Reference" "#PWR05"
+			(at 214.63 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.01 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab487660-90d0-433d-9381-64302f109e2e")
+		)
+		(instances
+			(project "pcb_bituhr"
+				(path "/d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
