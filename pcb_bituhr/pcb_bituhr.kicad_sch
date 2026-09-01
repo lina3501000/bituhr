@@ -2317,6 +2317,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05618bbe-2ef1-4eae-8383-7939cb718eb9")
+	)
+	(wire
+		(pts
 			(xy 210.82 123.19) (xy 215.9 123.19)
 		)
 		(stroke
@@ -2387,6 +2397,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 83.82) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a875954-dea0-4cc2-a9b8-04d83e0ee684")
+	)
+	(wire
+		(pts
 			(xy 72.39 78.74) (xy 74.93 78.74)
 		)
 		(stroke
@@ -2417,6 +2437,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bb2c9e-95e1-4d80-bfbb-309b59886c11")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a30190-a9d2-40d2-b5a0-a0766c71c589")
+	)
+	(wire
+		(pts
 			(xy 210.82 88.9) (xy 215.9 88.9)
 		)
 		(stroke
@@ -2424,6 +2464,16 @@
 			(type default)
 		)
 		(uuid "54b9fca3-0826-421f-a65e-612a5504d5f7")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694689d0-9b5c-45b0-89b3-ac9909f75948")
 	)
 	(wire
 		(pts
@@ -2517,6 +2567,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28a514b-45b6-4457-ad84-1fbba79c267e")
+	)
+	(wire
+		(pts
 			(xy 167.64 109.22) (xy 171.45 109.22)
 		)
 		(stroke
@@ -2524,6 +2584,16 @@
 			(type default)
 		)
 		(uuid "a7b86b34-3f87-4b32-abe5-40d91e6834db")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afaff789-f29a-4110-b433-a8850d47d143")
 	)
 	(wire
 		(pts
@@ -2577,6 +2647,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8998726-030a-44d4-919d-d4db0c58db23")
+	)
+	(wire
+		(pts
 			(xy 210.82 83.82) (xy 215.9 83.82)
 		)
 		(stroke
@@ -2625,6 +2705,16 @@
 		)
 		(uuid "4d2d59fa-7adc-42fc-a801-b3da8c651079")
 	)
+	(label "Button"
+		(at 172.72 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "715e7827-53f1-4680-b9d4-23cfa862c71d")
+	)
 	(label "Neo1"
 		(at 210.82 72.39 0)
 		(effects
@@ -2634,6 +2724,16 @@
 			(justify left bottom)
 		)
 		(uuid "749c9e19-3fa9-434a-ae51-81dc08fb5825")
+	)
+	(label "SDA"
+		(at 172.72 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85d98742-723e-46e6-9d7c-47a8fae402b1")
 	)
 	(label "Potentiometer"
 		(at 203.2 120.65 0)
@@ -2665,6 +2765,16 @@
 		)
 		(uuid "9cb5bbd0-c97f-4787-8132-23735e0dbc2c")
 	)
+	(label "Neo1"
+		(at 114.3 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7a141e9-5ac3-4114-be3a-6fc9be653c9e")
+	)
 	(label "SCL"
 		(at 74.93 71.12 0)
 		(effects
@@ -2674,6 +2784,26 @@
 			(justify left bottom)
 		)
 		(uuid "cec44969-d303-497e-a7ab-f4c5337e7dbb")
+	)
+	(label "SCL"
+		(at 172.72 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4ff3ee5-3cd2-487e-b2d2-16c3a655a0b7")
+	)
+	(label "Neo2"
+		(at 114.3 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d98d7d20-8ee4-4c87-b21b-d94c991fc4c8")
 	)
 	(label "Button"
 		(at 78.74 121.92 0)
@@ -2694,6 +2824,36 @@
 			(justify left bottom)
 		)
 		(uuid "dc8dae86-ac82-470a-ae38-c4ab8aeee466")
+	)
+	(label "Neo3"
+		(at 114.3 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee875d03-ae17-4a4e-8f4f-2811d3691a54")
+	)
+	(label "Kipp1"
+		(at 172.72 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1534b46-bd02-4b53-abb6-81949a8b2bbb")
+	)
+	(label "Kipp2"
+		(at 172.72 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe30f190-7239-4365-833d-fd0bf3cd0f61")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -2877,7 +3037,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 139.7 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4918,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 149.86 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
