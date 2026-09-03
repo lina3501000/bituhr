@@ -429,7 +429,7 @@
         "uuid": "d6c34df6-2d93-4be8-987b-02bf51a7e5d9"
       }
     ],
-    "used_designators": "Potentiometer1,PowerIN1,Neopixel2-4,Kippschalter2,Button1,J1,#PWR1-19,A1",
+    "used_designators": "Potentiometer1,Kippschalter2,PowerIN1,Neopixel2-4,Button1,J1,#PWR1-19,A1",
     "variants": []
   },
   "sheets": [

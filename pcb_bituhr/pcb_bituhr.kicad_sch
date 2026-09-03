@@ -2966,7 +2966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3282,7 +3282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3365,7 +3365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 220.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3606,7 +3606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 220.98 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3768,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4406,7 +4406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Connector_JST:JST_PUD_B40B-PUDSS_2x20_P2.00mm_Vertical"
 			(at 144.78 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4686,7 +4686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 71.12 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 68.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5164,7 +5164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_speakON_Neutrik_NL4MDXX-H-2_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 74.93 137.16 0)
 			(hide yes)
 			(show_name no)
