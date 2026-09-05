@@ -2337,16 +2337,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 134.62) (xy 83.82 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08999efc-1f85-4e4e-b67a-b88becb89c9b")
-	)
-	(wire
-		(pts
 			(xy 210.82 69.85) (xy 215.9 69.85)
 		)
 		(stroke
@@ -2467,6 +2457,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 134.62) (xy 85.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1c8559-1529-44ec-9229-973ef2364502")
+	)
+	(wire
+		(pts
 			(xy 167.64 96.52) (xy 172.72 96.52)
 		)
 		(stroke
@@ -2547,16 +2547,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 137.16) (xy 83.82 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc51eae-7232-41bd-b15a-f2a0cc30db92")
-	)
-	(wire
-		(pts
 			(xy 210.82 86.36) (xy 215.9 86.36)
 		)
 		(stroke
@@ -2614,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "b98fb3e5-d6d0-4790-9c57-ad0af3dc9967")
+	)
+	(wire
+		(pts
+			(xy 80.01 137.16) (xy 85.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c774d1a8-8f41-4080-8372-a334876ee7d0")
 	)
 	(wire
 		(pts
@@ -3094,7 +3094,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 137.16 270)
+		(at 85.09 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3102,10 +3102,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "289953fd-85be-4b4e-8ff4-f68f11b269aa")
 		(property "Reference" "#PWR018"
-			(at 80.01 137.16 0)
+			(at 81.28 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3116,7 +3115,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.63 137.1599 90)
+			(at 88.646 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3127,7 +3126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 137.16 0)
+			(at 85.09 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4295,7 +4294,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 134.62 90)
+		(at 85.09 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4306,7 +4305,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f4b671c-fb4a-4a4d-822e-9ff8beea5b1b")
 		(property "Reference" "#PWR019"
-			(at 90.17 134.62 0)
+			(at 91.44 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +4316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 134.6199 90)
+			(at 88.9 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4328,7 +4327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 134.62 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +4338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 134.62 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 134.62 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,7 +4405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PUD_B40B-PUDSS_2x20_P2.00mm_Vertical"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 144.78 143.51 0)
 			(hide yes)
 			(show_name no)
